@@ -1,16 +1,29 @@
 PODS:
-  - SolanaAPIClientSwift (0.1.0)
+  - Alamofire (5.4.3)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - SolanaAPIClientSwift (0.1.0):
+    - Moya (~> 14.0)
 
 DEPENDENCIES:
   - SolanaAPIClientSwift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
 
 EXTERNAL SOURCES:
   SolanaAPIClientSwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SolanaAPIClientSwift: 865762536fafbbe4032e2219f5c6f942c66050c7
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  SolanaAPIClientSwift: fe63d1c59fc8b9d4dbf33ec5807fc0de11effeb7
 
-PODFILE CHECKSUM: 191bedda2790283a1252df8a96ab15ec0ef4b508
+PODFILE CHECKSUM: 96cc6daba44e07da2e7291991fcd5b5d0dd3a2f2
 
 COCOAPODS: 1.10.1

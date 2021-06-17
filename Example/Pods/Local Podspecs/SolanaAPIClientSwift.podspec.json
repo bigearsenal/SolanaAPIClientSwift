@@ -1,9 +1,9 @@
 {
   "name": "SolanaAPIClientSwift",
   "version": "0.1.0",
-  "summary": "A short description of SolanaAPIClientSwift.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Chung Tran/SolanaAPIClientSwift",
+  "summary": "Solana API client written in pure Swift.",
+  "description": "SolanaAPIClientSwift is a child library of SolanaSwift, with is used for communicating with Solana RPC API",
+  "homepage": "https://github.com/p2p-org/SolanaAPIClientSwift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "Chung Tran": "bigearsenal@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Chung Tran/SolanaAPIClientSwift.git",
+    "git": "https://github.com/p2p-org/SolanaAPIClientSwift.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "SolanaAPIClientSwift/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "SolanaAPIClientSwift/Classes/**/*",
+  "dependencies": {
+    "Moya": [
+      "~> 14.0"
+    ]
+  },
+  "swift_version": "5.0"
 }
