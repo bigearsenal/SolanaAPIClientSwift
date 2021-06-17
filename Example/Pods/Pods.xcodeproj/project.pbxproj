@@ -72,6 +72,7 @@
 		AAC431B9EA605017153223586D0F63F6 /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55594480E9DB44B4EFA2EED0C59168D3 /* AnyEncodable.swift */; };
 		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D3144C877074DFF0F88E1EB433DAFB /* CachedResponseHandler.swift */; };
 		B47A63C2481BA13B70430CB45D6C224A /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11057C3026CCEF3B1405D5D13F8FB708 /* PublicKey.swift */; };
+		BCDCAE12267B4AE5001ED7B4 /* Service+TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCAE11267B4AE5001ED7B4 /* Service+TargetType.swift */; };
 		BF35ED4A558BEC06D6A176C76129A4DD /* Moya+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46691E5895E55B501BDD67B57D8B7CF /* Moya+Alamofire.swift */; };
 		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E83F2A741874FC1FCBB0F685027ED41 /* Response.swift */; };
 		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C096B4F476A8FED5523F0ABD89A8C96 /* Alamofire.swift */; };
@@ -147,13 +148,13 @@
 		2C096B4F476A8FED5523F0ABD89A8C96 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		2DD2337A4FBD970C4DF36358361EE6F8 /* SolanaAPIClientSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SolanaAPIClientSwift.modulemap; sourceTree = "<group>"; };
 		3010A8E991225EAD41DA182A03F3D4E9 /* RequestTypeWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTypeWrapper.swift; path = Sources/Moya/RequestTypeWrapper.swift; sourceTree = "<group>"; };
-		30F8F8385C5074A3C8D0EE7B81444119 /* Pods_SolanaAPIClientSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SolanaAPIClientSwift_Tests.framework; path = "Pods-SolanaAPIClientSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F8F8385C5074A3C8D0EE7B81444119 /* Pods_SolanaAPIClientSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolanaAPIClientSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		310A843CFA11B36DA713A07569B71FA4 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
 		31DB0381D4E7E08929A971D20CEA01AD /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		3231A1515DE2F1FACEC2D17D5B300925 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
 		3506ACC2D0880727852D633CB4968A4F /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
 		3739E883988CD1806ADB4A187338EE92 /* RequestParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestParams.swift; sourceTree = "<group>"; };
-		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moya.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		384AA3F43030DE222E991F35F8E93E6F /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		396DC393083EDEA12DE144B71A41F839 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
 		3C77E8F4B1266B637BBE7549B586EB16 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
@@ -162,7 +163,7 @@
 		41E11CA17F8AA6D88D83793465A02A4F /* MultiTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiTarget.swift; path = Sources/Moya/MultiTarget.swift; sourceTree = "<group>"; };
 		4674307EA6BDE7C8BE6C92506F7CC44C /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
 		46A4FB2211FEFF92B26CEB3D671785D6 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
-		478C4C558FD40EC1648FD3F408D8114C /* SolanaAPIClientSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SolanaAPIClientSwift.framework; path = SolanaAPIClientSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		478C4C558FD40EC1648FD3F408D8114C /* SolanaAPIClientSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SolanaAPIClientSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49341ECB4A46727F6CA4B64F83A03D4B /* Bytes+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bytes+Extensions.swift"; sourceTree = "<group>"; };
 		4B8B37DB2A85AED71F0F2885CF5B240E /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
 		4BFF312E006D202F727AA4AB13F1BC31 /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
@@ -175,7 +176,7 @@
 		5791ECB3FD0544D28D20EAB3041CBA59 /* Moya-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-umbrella.h"; sourceTree = "<group>"; };
 		58508BBBCFE4A62CAE86CD6C88AC7A38 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
 		596236C40C0A7436D657A91229FA413B /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6273034C822C8B76FAF94B6D52AF04BB /* Pods-SolanaAPIClientSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SolanaAPIClientSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		6DDB97898E6E6FAAEA6700DE98C03C74 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		6E0A12D3F6F9D1D25F5F7DF34FD55D29 /* Moya-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Moya-Info.plist"; sourceTree = "<group>"; };
@@ -199,7 +200,7 @@
 		94EFB7A875C42FA7325A6C2084A5DA27 /* Moya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moya-dummy.m"; sourceTree = "<group>"; };
 		99620AC35792A5CEA4674618FBE13EF5 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Sources/Moya/Endpoint.swift; sourceTree = "<group>"; };
 		9A549845F157536CCC6BF12027F61F1D /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1380DAE986FA876EDE23A0A651A82ED /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		A1D3144C877074DFF0F88E1EB433DAFB /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		A4EA12D612A2ED87C0B35AEE9B146211 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
@@ -214,16 +215,17 @@
 		BB1CB9405EA1FDFD7610CF52FCABE56E /* Moya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moya.release.xcconfig; sourceTree = "<group>"; };
 		BBDC169495F1F7135FEB4E2E8728F1B2 /* Pods-SolanaAPIClientSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SolanaAPIClientSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BBFA57933F90D7A68842AD12E84D07B6 /* Moya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moya.debug.xcconfig; sourceTree = "<group>"; };
+		BCDCAE11267B4AE5001ED7B4 /* Service+TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Service+TargetType.swift"; path = "SolanaAPIClientSwift/Classes/Service+TargetType.swift"; sourceTree = "<group>"; };
 		BE1BE6EECE99B53C2C3A215A7C4A2801 /* MoyaProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaProvider.swift; path = Sources/Moya/MoyaProvider.swift; sourceTree = "<group>"; };
 		BF6AB709C65D6E2B78CCD9A42027831D /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Sources/Moya/MultipartFormData.swift; sourceTree = "<group>"; };
 		C2FB7855022585496DE9683E82D547CD /* NetworkActivityPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityPlugin.swift; path = Sources/Moya/Plugins/NetworkActivityPlugin.swift; sourceTree = "<group>"; };
 		C79A81C9C443446BC953CA06B9CFFCFC /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		C7C40D50E450441482256EB65AF8C38F /* Cancellable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancellable.swift; path = Sources/Moya/Cancellable.swift; sourceTree = "<group>"; };
-		C899572C698AA45528B95F56282321B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C899572C698AA45528B95F56282321B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C89F74605235A9A2D8047CF7BAD6CFE6 /* Pods-SolanaAPIClientSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SolanaAPIClientSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C978E082F8098D4503EF2135FF06D615 /* SolanaAPIClientSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SolanaAPIClientSwift.debug.xcconfig; sourceTree = "<group>"; };
 		CCE5F6C3CAB13B9F094E390CC77A6773 /* Moya.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Moya.modulemap; sourceTree = "<group>"; };
-		CEE24D90921D0B5336E49CD69576FCF7 /* SolanaAPIClientSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SolanaAPIClientSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEE24D90921D0B5336E49CD69576FCF7 /* SolanaAPIClientSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SolanaAPIClientSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CFB3A12BB96652710424AFA2465D8650 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Moya/Image.swift; sourceTree = "<group>"; };
 		D47833D3795245EC250346C30A238AED /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		D66BDC36BB5EA7BC781F843A2737CC06 /* EmptyInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyInfo.swift; sourceTree = "<group>"; };
@@ -236,7 +238,7 @@
 		E3832B158185058C1430C629D033D3DE /* Pods-SolanaAPIClientSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SolanaAPIClientSwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		E46691E5895E55B501BDD67B57D8B7CF /* Moya+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Moya+Alamofire.swift"; path = "Sources/Moya/Moya+Alamofire.swift"; sourceTree = "<group>"; };
 		E63914169812C3D69FE098B338ABF7CF /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6AAD78179C92E136B89EA73D9C4103D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E6AAD78179C92E136B89EA73D9C4103D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E6F4239C5FFA6C06E582ACFA66549105 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		E8C6564FEBD4D4FBD1B1434443CEE514 /* MoyaProvider+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Defaults.swift"; path = "Sources/Moya/MoyaProvider+Defaults.swift"; sourceTree = "<group>"; };
 		E9A21D85D1FCC428A8DCC3CD3B48A511 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
@@ -328,7 +330,6 @@
 				FE1BEABBE7C9F1949D238AD252D98D69 /* Validation.swift */,
 				48F9923F53999064B8C4B424ED358E2D /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -459,7 +460,6 @@
 				F5D3864C123A39A677F18A8E4694C949 /* Core */,
 				CFC08CC80B24F5ECCD361BB0CFC0CF2A /* Support Files */,
 			);
-			name = Moya;
 			path = Moya;
 			sourceTree = "<group>";
 		};
@@ -477,6 +477,7 @@
 			isa = PBXGroup;
 			children = (
 				06059D4F16922D0775A3AEE5526677CC /* Service.swift */,
+				BCDCAE11267B4AE5001ED7B4 /* Service+TargetType.swift */,
 				AF4CC6DA722103856E16599E2500CD42 /* Extensions */,
 				6B33E26E565DA7195FA2A3FFD2F94087 /* Helpers */,
 				D2CC6D26306202DB39358C6C73BA9AA2 /* Models */,
@@ -496,7 +497,6 @@
 				20367E50CFD60F897D1A80C55B59F21B /* Mint.swift */,
 				F9F2A36309F16AC68E362FD889DF2003 /* TokenSwapInfo.swift */,
 			);
-			name = BufferLayout;
 			path = BufferLayout;
 			sourceTree = "<group>";
 		};
@@ -811,6 +811,7 @@
 				938368A58CC13D0990910604FAF0A27B /* Mint.swift in Sources */,
 				F1549F38BB2E483D872D38BCB1CEF54E /* Models.swift in Sources */,
 				B47A63C2481BA13B70430CB45D6C224A /* PublicKey.swift in Sources */,
+				BCDCAE12267B4AE5001ED7B4 /* Service+TargetType.swift in Sources */,
 				8A408E49AF03BB26C7840FA7637A4C5F /* RequestParams.swift in Sources */,
 				4970C9E858981FC6356DBE79CC843A8A /* Service.swift in Sources */,
 				A29FF7A8BAF4C7F5E2C354CD12134CC0 /* SolanaAPIClientSwift-dummy.m in Sources */,
@@ -1099,8 +1100,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
