@@ -1,0 +1,6 @@
+framework module SolanaAPIClientSwift {
+  umbrella header "SolanaAPIClientSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

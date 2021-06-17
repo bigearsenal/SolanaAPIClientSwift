@@ -1,0 +1,6 @@
+framework module Pods_SolanaAPIClientSwift_Tests {
+  umbrella header "Pods-SolanaAPIClientSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

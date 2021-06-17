@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184E6D81ADFAB2C4444D9F59D4646855 /* AccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17289FE633BB0B5423BD1DDEFCE33978 /* AccountInfo.swift */; };
+		2E2617C7B748FE38DB9BDD0A013458A7 /* Bytes+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C1B8BCD29238D9B9BAA24D9117E6 /* Bytes+Extensions.swift */; };
+		368CCE0D200D459745B1FBB4117DFC34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3CBE9DFB597E46DCC42F21F1FA6A5112 /* SolanaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1A5F82F80DE9DCCB86528184F023F /* SolanaError.swift */; };
+		661DE5378BDBDB84B7D54DC68B24119F /* RequestParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01D64B89B5D051168D9069224CE4E1B /* RequestParams.swift */; };
+		6E92C0A4ECB7F663BAE83D9A15260054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F01121DD3A54EAFE23DBB7E1D568561 /* SolanaAPIClientSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 607CE6867060B4F6B490D5D341543760 /* SolanaAPIClientSwift-dummy.m */; };
+		7636600C04A192F72A0EE95C08650BB1 /* TokenSwapInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6939522DD82F9C6EE935B1BC0DC3B61D /* TokenSwapInfo.swift */; };
+		7E85A9553DA3F8F1413AFC8DD5C2B7C0 /* Pods-SolanaAPIClientSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C89F74605235A9A2D8047CF7BAD6CFE6 /* Pods-SolanaAPIClientSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF15B791CC3C5941C64508130F53EA7 /* Base58.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E36499D1FFB95F00DC5EB87E9A4B2 /* Base58.swift */; };
+		8FD0E684D09B64C0F1321997A79359B1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFB0344587FF9AF13CBB57E568F83AE /* Models.swift */; };
+		B12E9BB02B61C55272E265B868A471B7 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE5BF0F51AE68A43066BB2C2C8883DA /* PublicKey.swift */; };
+		BCDCAE10267B4576001ED7B4 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCAE0F267B4576001ED7B4 /* Data+Extensions.swift */; };
+		C6412F8B574A4BDF03515850E5FF8EFF /* SolanaAPIClientSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D35F73F1F0C87E91B07382596FCEC96A /* SolanaAPIClientSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D63FEE7A480C90B8B05DAE91147138A2 /* BufferLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0045DE4F740973C4745E54ADFD7AD0C /* BufferLayout.swift */; };
+		D9AB0AA893552D4D0928D03B40AE2383 /* EmptyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E59CD8BD59121E52D166C6354A9243 /* EmptyInfo.swift */; };
+		F150449234096A7D3400BAABF24C9504 /* Pods-SolanaAPIClientSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3832B158185058C1430C629D033D3DE /* Pods-SolanaAPIClientSwift_Tests-dummy.m */; };
+		F53D1D858E7839EFA9A31CEAD5647CFD /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3088B89F93B4564DE2C9C0D020B28739 /* Service.swift */; };
+		FAE3A65BC8B8091532CB14F57C2CDF4B /* Mint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CCD91A682FD9EFB454BB8686C0C983 /* Mint.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECF36B8D177D2E742FB6C0BE892CB726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92929972E6421D33BAD2D22192330DA8;
+			remoteInfo = SolanaAPIClientSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17289FE633BB0B5423BD1DDEFCE33978 /* AccountInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AccountInfo.swift; sourceTree = "<group>"; };
+		20E59CD8BD59121E52D166C6354A9243 /* EmptyInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyInfo.swift; sourceTree = "<group>"; };
+		3088B89F93B4564DE2C9C0D020B28739 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = SolanaAPIClientSwift/Classes/Service.swift; sourceTree = "<group>"; };
+		30F8F8385C5074A3C8D0EE7B81444119 /* Pods_SolanaAPIClientSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolanaAPIClientSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F38B733681F4D4D76E1883FAA0B026C /* Pods-SolanaAPIClientSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SolanaAPIClientSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		42D1A5F82F80DE9DCCB86528184F023F /* SolanaError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SolanaError.swift; sourceTree = "<group>"; };
+		478C4C558FD40EC1648FD3F408D8114C /* SolanaAPIClientSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SolanaAPIClientSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC37F584C479C16C84D6E1287FD1027 /* SolanaAPIClientSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SolanaAPIClientSwift.modulemap; sourceTree = "<group>"; };
+		527E36499D1FFB95F00DC5EB87E9A4B2 /* Base58.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Base58.swift; sourceTree = "<group>"; };
+		5B28C1B8BCD29238D9B9BAA24D9117E6 /* Bytes+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bytes+Extensions.swift"; sourceTree = "<group>"; };
+		5F7E026EEDDABAB77E382C3D6915A641 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		607CE6867060B4F6B490D5D341543760 /* SolanaAPIClientSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SolanaAPIClientSwift-dummy.m"; sourceTree = "<group>"; };
+		6273034C822C8B76FAF94B6D52AF04BB /* Pods-SolanaAPIClientSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SolanaAPIClientSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		6939522DD82F9C6EE935B1BC0DC3B61D /* TokenSwapInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TokenSwapInfo.swift; sourceTree = "<group>"; };
+		6C6EF02F6FBFBE067CAEA67AD693A1FD /* SolanaAPIClientSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SolanaAPIClientSwift.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8AD4F5A6C72C199EBA04C3541BB50D8A /* SolanaAPIClientSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SolanaAPIClientSwift-Info.plist"; sourceTree = "<group>"; };
+		92F1B61B8530EDDA466D8B7F5BF983E1 /* Pods-SolanaAPIClientSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SolanaAPIClientSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		947DE1C3C7A17AC8340F8885FB3E552E /* Pods-SolanaAPIClientSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SolanaAPIClientSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA7A33DA54E6D2E69AB6B88207BE4985 /* SolanaAPIClientSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SolanaAPIClientSwift.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		AE1732CAB0AF9451EE16CEE4C8DFCD9B /* Pods-SolanaAPIClientSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SolanaAPIClientSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B131D0BE9FF8970194989ED5D6CBF711 /* SolanaAPIClientSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SolanaAPIClientSwift.release.xcconfig; sourceTree = "<group>"; };
+		BBDC169495F1F7135FEB4E2E8728F1B2 /* Pods-SolanaAPIClientSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SolanaAPIClientSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BCDCAE0F267B4576001ED7B4 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		BEE5BF0F51AE68A43066BB2C2C8883DA /* PublicKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
+		BF4799B737422FC981219D9269C57E99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C89F74605235A9A2D8047CF7BAD6CFE6 /* Pods-SolanaAPIClientSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SolanaAPIClientSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CCFB0344587FF9AF13CBB57E568F83AE /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D0045DE4F740973C4745E54ADFD7AD0C /* BufferLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BufferLayout.swift; sourceTree = "<group>"; };
+		D1CCD91A682FD9EFB454BB8686C0C983 /* Mint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mint.swift; sourceTree = "<group>"; };
+		D35F73F1F0C87E91B07382596FCEC96A /* SolanaAPIClientSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SolanaAPIClientSwift-umbrella.h"; sourceTree = "<group>"; };
+		D9BC06FC013B2B48389164234B079470 /* Pods-SolanaAPIClientSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SolanaAPIClientSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E3832B158185058C1430C629D033D3DE /* Pods-SolanaAPIClientSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SolanaAPIClientSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		EFA6DFFB014B45B1214DE9B0A260E40A /* SolanaAPIClientSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SolanaAPIClientSwift-prefix.pch"; sourceTree = "<group>"; };
+		F01D64B89B5D051168D9069224CE4E1B /* RequestParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestParams.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15CAE56DFE56C961B4DDD6E4830ABE0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CCE0D200D459745B1FBB4117DFC34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4D0FAAA51EBFABD4CCA1C24B1BCEF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E92C0A4ECB7F663BAE83D9A15260054 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16696DC1F78F67DBBE05BD3AB2F83679 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5B28C1B8BCD29238D9B9BAA24D9117E6 /* Bytes+Extensions.swift */,
+				BCDCAE0F267B4576001ED7B4 /* Data+Extensions.swift */,
+			);
+			name = Extensions;
+			path = SolanaAPIClientSwift/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		1FA394312069651ED5FEB95E157409ED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				527E36499D1FFB95F00DC5EB87E9A4B2 /* Base58.swift */,
+			);
+			name = Helpers;
+			path = SolanaAPIClientSwift/Classes/Helpers;
+			sourceTree = "<group>";
+		};
+		563C51C65BE3CB49219B9FE1B6B350B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C91CC53B46D9346DD1115726BDF8216 /* SolanaAPIClientSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D897FD199C9AB497505D7D7CEC0D689 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5F7E026EEDDABAB77E382C3D6915A641 /* LICENSE */,
+				BF4799B737422FC981219D9269C57E99 /* README.md */,
+				AA7A33DA54E6D2E69AB6B88207BE4985 /* SolanaAPIClientSwift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8C91CC53B46D9346DD1115726BDF8216 /* SolanaAPIClientSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3088B89F93B4564DE2C9C0D020B28739 /* Service.swift */,
+				16696DC1F78F67DBBE05BD3AB2F83679 /* Extensions */,
+				1FA394312069651ED5FEB95E157409ED /* Helpers */,
+				CCB6B7FE1E2C89EED24E26B612ED46A3 /* Models */,
+				6D897FD199C9AB497505D7D7CEC0D689 /* Pod */,
+				C4FF130A7802399C246488825BEF597B /* Support Files */,
+			);
+			name = SolanaAPIClientSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8D4A7719522BBED5FCEBFEE650BA4143 /* Pods-SolanaAPIClientSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6273034C822C8B76FAF94B6D52AF04BB /* Pods-SolanaAPIClientSwift_Tests.modulemap */,
+				92F1B61B8530EDDA466D8B7F5BF983E1 /* Pods-SolanaAPIClientSwift_Tests-acknowledgements.markdown */,
+				3F38B733681F4D4D76E1883FAA0B026C /* Pods-SolanaAPIClientSwift_Tests-acknowledgements.plist */,
+				E3832B158185058C1430C629D033D3DE /* Pods-SolanaAPIClientSwift_Tests-dummy.m */,
+				D9BC06FC013B2B48389164234B079470 /* Pods-SolanaAPIClientSwift_Tests-frameworks.sh */,
+				947DE1C3C7A17AC8340F8885FB3E552E /* Pods-SolanaAPIClientSwift_Tests-Info.plist */,
+				C89F74605235A9A2D8047CF7BAD6CFE6 /* Pods-SolanaAPIClientSwift_Tests-umbrella.h */,
+				AE1732CAB0AF9451EE16CEE4C8DFCD9B /* Pods-SolanaAPIClientSwift_Tests.debug.xcconfig */,
+				BBDC169495F1F7135FEB4E2E8728F1B2 /* Pods-SolanaAPIClientSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-SolanaAPIClientSwift_Tests";
+			path = "Target Support Files/Pods-SolanaAPIClientSwift_Tests";
+			sourceTree = "<group>";
+		};
+		8F3E3BD6CF10AD40F46BDB3FA450E787 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D4A7719522BBED5FCEBFEE650BA4143 /* Pods-SolanaAPIClientSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		94D5652CD791882E0EF8C5B77CBBD988 /* BufferLayout */ = {
+			isa = PBXGroup;
+			children = (
+				17289FE633BB0B5423BD1DDEFCE33978 /* AccountInfo.swift */,
+				D0045DE4F740973C4745E54ADFD7AD0C /* BufferLayout.swift */,
+				20E59CD8BD59121E52D166C6354A9243 /* EmptyInfo.swift */,
+				D1CCD91A682FD9EFB454BB8686C0C983 /* Mint.swift */,
+				6939522DD82F9C6EE935B1BC0DC3B61D /* TokenSwapInfo.swift */,
+			);
+			path = BufferLayout;
+			sourceTree = "<group>";
+		};
+		BDF1B850B56B441EDBDB3064650EB421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F8F8385C5074A3C8D0EE7B81444119 /* Pods_SolanaAPIClientSwift_Tests.framework */,
+				478C4C558FD40EC1648FD3F408D8114C /* SolanaAPIClientSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4FF130A7802399C246488825BEF597B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FC37F584C479C16C84D6E1287FD1027 /* SolanaAPIClientSwift.modulemap */,
+				607CE6867060B4F6B490D5D341543760 /* SolanaAPIClientSwift-dummy.m */,
+				8AD4F5A6C72C199EBA04C3541BB50D8A /* SolanaAPIClientSwift-Info.plist */,
+				EFA6DFFB014B45B1214DE9B0A260E40A /* SolanaAPIClientSwift-prefix.pch */,
+				D35F73F1F0C87E91B07382596FCEC96A /* SolanaAPIClientSwift-umbrella.h */,
+				6C6EF02F6FBFBE067CAEA67AD693A1FD /* SolanaAPIClientSwift.debug.xcconfig */,
+				B131D0BE9FF8970194989ED5D6CBF711 /* SolanaAPIClientSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SolanaAPIClientSwift";
+			sourceTree = "<group>";
+		};
+		CCB6B7FE1E2C89EED24E26B612ED46A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCFB0344587FF9AF13CBB57E568F83AE /* Models.swift */,
+				BEE5BF0F51AE68A43066BB2C2C8883DA /* PublicKey.swift */,
+				F01D64B89B5D051168D9069224CE4E1B /* RequestParams.swift */,
+				42D1A5F82F80DE9DCCB86528184F023F /* SolanaError.swift */,
+				94D5652CD791882E0EF8C5B77CBBD988 /* BufferLayout */,
+			);
+			name = Models;
+			path = SolanaAPIClientSwift/Classes/Models;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				563C51C65BE3CB49219B9FE1B6B350B2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BDF1B850B56B441EDBDB3064650EB421 /* Products */,
+				8F3E3BD6CF10AD40F46BDB3FA450E787 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D7A420F119BEFFD31F6AAA6B196509C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6412F8B574A4BDF03515850E5FF8EFF /* SolanaAPIClientSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F558A449AD0D727C76DD1984D16E3F73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E85A9553DA3F8F1413AFC8DD5C2B7C0 /* Pods-SolanaAPIClientSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10D4B25D06A559968581BA598155B643 /* Pods-SolanaAPIClientSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B760F41A04548D8DFA96879F6EEFB3 /* Build configuration list for PBXNativeTarget "Pods-SolanaAPIClientSwift_Tests" */;
+			buildPhases = (
+				F558A449AD0D727C76DD1984D16E3F73 /* Headers */,
+				356147A860DBC235591EA33C194517D0 /* Sources */,
+				8E4D0FAAA51EBFABD4CCA1C24B1BCEF6 /* Frameworks */,
+				A19524FC6A790D59105263782378EB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC95DBE19F532DF47904817A35C2591 /* PBXTargetDependency */,
+			);
+			name = "Pods-SolanaAPIClientSwift_Tests";
+			productName = "Pods-SolanaAPIClientSwift_Tests";
+			productReference = 30F8F8385C5074A3C8D0EE7B81444119 /* Pods_SolanaAPIClientSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92929972E6421D33BAD2D22192330DA8 /* SolanaAPIClientSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93CB6A8012307A4C21F012CA222C66E /* Build configuration list for PBXNativeTarget "SolanaAPIClientSwift" */;
+			buildPhases = (
+				6D7A420F119BEFFD31F6AAA6B196509C /* Headers */,
+				C72602AA2CB7F4425BD69E47C14B8E48 /* Sources */,
+				15CAE56DFE56C961B4DDD6E4830ABE0D /* Frameworks */,
+				0FBA57460771C5D673799FE9FAAB9F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolanaAPIClientSwift;
+			productName = SolanaAPIClientSwift;
+			productReference = 478C4C558FD40EC1648FD3F408D8114C /* SolanaAPIClientSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BDF1B850B56B441EDBDB3064650EB421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10D4B25D06A559968581BA598155B643 /* Pods-SolanaAPIClientSwift_Tests */,
+				92929972E6421D33BAD2D22192330DA8 /* SolanaAPIClientSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FBA57460771C5D673799FE9FAAB9F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19524FC6A790D59105263782378EB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		356147A860DBC235591EA33C194517D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150449234096A7D3400BAABF24C9504 /* Pods-SolanaAPIClientSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72602AA2CB7F4425BD69E47C14B8E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184E6D81ADFAB2C4444D9F59D4646855 /* AccountInfo.swift in Sources */,
+				BCDCAE10267B4576001ED7B4 /* Data+Extensions.swift in Sources */,
+				8BF15B791CC3C5941C64508130F53EA7 /* Base58.swift in Sources */,
+				D63FEE7A480C90B8B05DAE91147138A2 /* BufferLayout.swift in Sources */,
+				2E2617C7B748FE38DB9BDD0A013458A7 /* Bytes+Extensions.swift in Sources */,
+				D9AB0AA893552D4D0928D03B40AE2383 /* EmptyInfo.swift in Sources */,
+				FAE3A65BC8B8091532CB14F57C2CDF4B /* Mint.swift in Sources */,
+				8FD0E684D09B64C0F1321997A79359B1 /* Models.swift in Sources */,
+				B12E9BB02B61C55272E265B868A471B7 /* PublicKey.swift in Sources */,
+				661DE5378BDBDB84B7D54DC68B24119F /* RequestParams.swift in Sources */,
+				F53D1D858E7839EFA9A31CEAD5647CFD /* Service.swift in Sources */,
+				6F01121DD3A54EAFE23DBB7E1D568561 /* SolanaAPIClientSwift-dummy.m in Sources */,
+				3CBE9DFB597E46DCC42F21F1FA6A5112 /* SolanaError.swift in Sources */,
+				7636600C04A192F72A0EE95C08650BB1 /* TokenSwapInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAC95DBE19F532DF47904817A35C2591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SolanaAPIClientSwift;
+			target = 92929972E6421D33BAD2D22192330DA8 /* SolanaAPIClientSwift */;
+			targetProxy = ECF36B8D177D2E742FB6C0BE892CB726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7BD4A9EA6777C6D31D51673F5D1E5051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDC169495F1F7135FEB4E2E8728F1B2 /* Pods-SolanaAPIClientSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SolanaAPIClientSwift_Tests/Pods-SolanaAPIClientSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SolanaAPIClientSwift_Tests/Pods-SolanaAPIClientSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		894231D9C23842AE398D7AD29FED57F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6EF02F6FBFBE067CAEA67AD693A1FD /* SolanaAPIClientSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SolanaAPIClientSwift/SolanaAPIClientSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SolanaAPIClientSwift/SolanaAPIClientSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SolanaAPIClientSwift/SolanaAPIClientSwift.modulemap";
+				PRODUCT_MODULE_NAME = SolanaAPIClientSwift;
+				PRODUCT_NAME = SolanaAPIClientSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9065FFB17653221C2AEAE69538C062A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1732CAB0AF9451EE16CEE4C8DFCD9B /* Pods-SolanaAPIClientSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SolanaAPIClientSwift_Tests/Pods-SolanaAPIClientSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SolanaAPIClientSwift_Tests/Pods-SolanaAPIClientSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B32D040C3D32F8FDCD7FFB030193ADEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B131D0BE9FF8970194989ED5D6CBF711 /* SolanaAPIClientSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SolanaAPIClientSwift/SolanaAPIClientSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SolanaAPIClientSwift/SolanaAPIClientSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SolanaAPIClientSwift/SolanaAPIClientSwift.modulemap";
+				PRODUCT_MODULE_NAME = SolanaAPIClientSwift;
+				PRODUCT_NAME = SolanaAPIClientSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B760F41A04548D8DFA96879F6EEFB3 /* Build configuration list for PBXNativeTarget "Pods-SolanaAPIClientSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9065FFB17653221C2AEAE69538C062A5 /* Debug */,
+				7BD4A9EA6777C6D31D51673F5D1E5051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93CB6A8012307A4C21F012CA222C66E /* Build configuration list for PBXNativeTarget "SolanaAPIClientSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894231D9C23842AE398D7AD29FED57F2 /* Debug */,
+				B32D040C3D32F8FDCD7FFB030193ADEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
